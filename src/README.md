@@ -21,6 +21,9 @@ data/
 ## Run Locally
 
 ```bash
+# Install dependencies
+pip install -r requirements.txt
+
 # From the project root (where data/ lives)
 python -m src.pipeline
 ```
@@ -49,13 +52,10 @@ Weights are saved to `outputs/weights/weights.csv`.
 ## Requirements
 
 - Python 3.9+
-- scikit-learn, pandas, numpy
-
-All available in the project `venv`:
+- scikit-learn, pandas, numpy (pinned versions in `requirements.txt`)
 
 ```bash
-source venv/bin/activate
-python -m src.pipeline
+pip install -r requirements.txt
 ```
 
 ## Azure ML Pipeline Integration
