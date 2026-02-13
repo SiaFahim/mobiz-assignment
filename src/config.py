@@ -14,7 +14,7 @@ FEATURES = [
 
 # Logistic Regression hyperparameters
 LR_PARAMS = {
-    "C": 1.0,
+    "C": 0.1,
     "penalty": "l2",
     "solver": "lbfgs",
     "max_iter": 1000,
